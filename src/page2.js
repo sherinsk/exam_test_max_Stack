@@ -22,7 +22,7 @@ function Page2() {
     }, [id]);
 
     return (
-        <div className="grid md:grid-cols-3 grid-rows-3 gap-4 m-20 mx-40">
+        <div className="grid md:grid-cols-3 grid-rows-3 gap-4 m-20 mx-10">
             <div>
                 <img className="object-cover h-96 w-96" src={product.images?product.images[0]:"https://t3.ftcdn.net/jpg/04/34/72/82/240_F_434728286_OWQQvAFoXZLdGHlObozsolNeuSxhpr84.jpg"}></img>
             </div>
