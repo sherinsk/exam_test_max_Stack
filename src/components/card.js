@@ -5,7 +5,7 @@ function Card({product})
     return(   
 
 <div className="border border-gray-200 rounded-lg shadow  m-2">
-        <img className="p-8 rounded-t-lg h-auto max-w-full object-cover h-96 w-96" src={product.thumbnail} alt="product image" />
+        <img className="p-8 rounded-t-lg h-96 w-full object-cover" src={product.thumbnail} alt="product image" />
    
     <div className="px-5 pb-5">
     <div className="flex items-center justify-between">
